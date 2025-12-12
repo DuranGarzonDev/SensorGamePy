@@ -55,7 +55,7 @@ class PhysicsWorld:
         self._create_platform()
         
         # Zona de captura (bucket)
-        self.bucket_rect = pymunk.Rect(width * 0.35, 0, width * 0.3, 50)
+        # Definida por coordenadas, no por objeto Rect
         
         # Lista de bolas
         self.balls: List[Tuple[pymunk.Body, pymunk.Circle]] = []

@@ -10,7 +10,6 @@ Este módulo proporciona la clase PhysicsWorld que gestiona:
 """
 
 import pymunk
-import pymunk.pygame_util
 import numpy as np
 from typing import List, Tuple, Optional
 import random
